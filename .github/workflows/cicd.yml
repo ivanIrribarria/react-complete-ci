@@ -35,6 +35,9 @@ jobs:
       - name: Run the tests and generate coverage report
         run: npm run test -- --coverage
 
+      - name: Build
+        run: npm run build
+
       - name: Cypress run
         uses: cypress-io/github-action@v5.0.5 # use the explicit version number
         with:
@@ -44,9 +47,6 @@ jobs:
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build
-        run: npm run build
 
       - name: Deploy
         run: |
