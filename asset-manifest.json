@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/react-complete-ci/static/js/main.3ed5dc07.js",
+    "static/js/787.f3193121.chunk.js": "/react-complete-ci/static/js/787.f3193121.chunk.js",
+    "index.html": "/react-complete-ci/index.html",
+    "main.3ed5dc07.js.map": "/react-complete-ci/static/js/main.3ed5dc07.js.map",
+    "787.f3193121.chunk.js.map": "/react-complete-ci/static/js/787.f3193121.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3ed5dc07.js"
+  ]
+}
